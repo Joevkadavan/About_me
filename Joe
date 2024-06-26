@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joe V Kadavan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+            position: relative;
+        }
+        header img {
+            width: 100px; /* Increased size */
+            height: 100px; /* Increased size */
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 10px;
+            transform: translateY(-50%);
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 1em 0;
+            background-color: #444;
+            margin-bottom: 20px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 15px;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            color: #007bff;
+        }
+        .section {
+            padding: 2em 0;
+        }
+        .about, .portfolio, .contact, .blog {
+            background: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .about img, .portfolio img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .portfolio-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .portfolio-item {
+            flex: 1 1 calc(33.333% - 20px);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            background: #fff;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+        .portfolio-item img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            border-radius: 8px;
+        }
+        .portfolio-item p {
+            margin: 10px 0 0;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="C:\Users\Admin\Pictures\Joe✨.jpg" alt="Joe V Kadavan">
+        <h1>Joe V Kadavan</h1>
+        <p>Aspiring Engineer | AI Enthusiast | Dancer✨🔥🤔😂</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+        <a href="#blog">Blog</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="section about">
+            <h2>About Me</h2>
+            <img src="C:\Users\Admin\Pictures\joe v kadavan photo.jpg" alt="About Me Image">
+            <p>Hello, I'm Joe V Kadavan, a second-year student majoring in Electronics and Computer Engineering at VIT Chennai. I'm particularly interested in artificial intelligence, sustainable engineering, data science, and biotechnology. I am eager to explore the various opportunities and projects available at VIT to deepen my knowledge and skills. In my free time, I enjoy coding, running, and reading exciting and fun blogs. It's great to meet you, and I look forward to learning more from this experience!</p>
+        </section>
+        <section id="portfolio" class="section portfolio">
+            <h2>Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="C:\Users\Admin\Pictures\Dubai.jpg" alt="Project 1">
+                    <p>Dubai is a hub of opportunities and growth, making it an attractive destination for professionals and entrepreneurs alike. The city's rapid development and strategic location make it a global business center.</p>
+                    <p>Key industries such as finance, real estate, tourism, and technology offer abundant job prospects and career advancement. Dubai's free trade zones and business-friendly regulations encourage entrepreneurship and innovation.</p>
+                    <p>The city's diverse workforce and multicultural environment foster networking and collaboration. Additionally, Dubai's commitment to sustainability and smart city initiatives positions it as a leader in future-forward development, offering unparalleled opportunities for growth and success in various fields.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="C:\Users\Admin\Pictures\Flag_of_India.png" alt="Project 2">
+                    <p>Patriotism unites and strengthens India, fostering pride in its rich heritage and promoting social harmony in a diverse nation. It motivates citizens to contribute to the country’s development through hard work and innovation.</p>
+                    <p>A patriotic spirit encourages the defense of national sovereignty and integrity, ensuring independence and self-reliance. It also inspires civic engagement and social responsibility, driving active participation in democratic processes and promoting social justice.</p>
+                    <p>By being patriotic, Indians help build a stronger, more equitable society, ensuring the nation’s continued growth and success on the global stage.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="C:\Users\Admin\Pictures\night_sky.jpg" alt="Project 3">
+                    <p>Enjoying mindfulness and self-love while gazing at the night sky fosters inner peace and well-being. Mindfulness helps you stay present, appreciating the beauty of the stars and the vastness of the universe. It reduces stress and enhances emotional health, allowing you to connect deeply with your surroundings.</p>
+                    <p>Practicing self-love during these moments reinforces your self-worth and cultivates a positive self-image. This simple act of stargazing can be a powerful reminder of your place in the world, offering a sense of wonder and tranquility, and encouraging a balanced, fulfilling life.</p>
+                </div>
+            </div>
+            <p>Actual Portfolio Coming soon after 3rd year🤔😅🙏🏻✨...</p>
+        </section>
+        <section id="contact" class="section contact">
+            <h2>Contact</h2>
+            <p>Phone: +91 9962548113</p>
+            <p>Email: joevkadavan@gmail.com</p>
+        </section>
+        <section id="blog" class="section blog">
+            <h2>Blog</h2>
+            <p>Check out my blog: <a href="https://bealwaysjoe.blogspot.com/2023/12/semester-1-experience.html" target="_blank">Semester 1 Experience</a></p>
+            <p>Visit my full blog: <a href="https://bealwaysjoe.blogspot.com" target="_blank">Joe's Blog</a></p>
+            <p>Visit my new blog: <a href="https://bealwaysjoe.blogspot.com/2024/06/the-world-journey-of-growth-and.html" target="_blank">Joe's new Blog</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Joe V Kadavan. All rights reserved.</p>
+    </footer>
+</body>
+</html>
